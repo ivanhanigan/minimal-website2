@@ -4,9 +4,9 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="DiagrammeR, an R package that allows you to create flowcharts, diagrams, and graphs with Markdown-like text.">
-        <meta name="keywords" content="R, JavaScript, graphviz, mermaid">
-        <meta name="author" content="Richard Iannone and DiagrammeR contributors">
+        <meta name="description" content="A cool layout.">
+        <meta name="keywords" content="R">
+        <meta name="author" content="ivanhanigan based on rich-iannone">
 
         <link rel="apple-touch-icon" sizes="57x57" href="icon/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="icon/apple-icon-60x60.png">
@@ -27,7 +27,7 @@
         <meta name="theme-color" content="#ffffff">
 
         <title>
-        DiagrammeR - Documentation
+        Cool layout
         </title>
 
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -50,141 +50,157 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="index.html" class="navbar-brand">DiagrammeR</a>
+                <a href="index.html" class="navbar-brand">Cool layout</a>
             </div>
-            <nav class="collapse navbar-collapse bs-navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li>
-                      <a href="docs.html">Start</a>
-                    </li>
-                    <li>
-                      <a href="io.html">I/O</a>
-                    </li>
-                    <li class="active">
-                      <a href="graphviz_and_mermaid.html">Graphviz/Mermaid</a>
-                    </li>
-                    <li>
-                      <a href="ndfs_edfs.html">NDFs/EDFs</a>
-                    </li>
-                    <li>
-                      <a href="graph_creation.html">Graph Creation</a>
-                    </li>
-                    <li>
-                      <a href="selections.html">Selections</a>
-                    </li>
-                    <li>
-                      <a href="traversals.html">Traversals</a>
-                    </li>
-                    <li>
-                      <a href="inspection.html">Inspection</a>
-                    </li>
-                    <li>
-                      <a href="modification.html">Modification</a>
-                    </li>
-                    <li>
-                      <a href="deposit_values.html">Deposits</a>
-                    </li>
-                    <li>
-                      <a href="graph_series.html">Series</a>
-                    </li>
-                </ul>
-            </nav>
+            <!-- <nav class="collapse navbar-collapse bs-navbar-collapse"> -->
+            <!--     <ul class="nav navbar-nav"> -->
+            <!--         <li> -->
+            <!--           <a href="docs.html">Start</a> -->
+            <!--         </li> -->
+            <!--         <li> -->
+            <!--           <a href="io.html">I/O</a> -->
+            <!--         </li> -->
+            <!--         <li class="active"> -->
+            <!--           <a href="graphviz_and_mermaid.html">Graphviz/Mermaid</a> -->
+            <!--         </li> -->
+            <!--         <li> -->
+            <!--           <a href="ndfs_edfs.html">NDFs/EDFs</a> -->
+            <!--         </li> -->
+            <!--         <li> -->
+            <!--           <a href="graph_creation.html">Graph Creation</a> -->
+            <!--         </li> -->
+            <!--         <li> -->
+            <!--           <a href="selections.html">Selections</a> -->
+            <!--         </li> -->
+            <!--         <li> -->
+            <!--           <a href="traversals.html">Traversals</a> -->
+            <!--         </li> -->
+            <!--         <li> -->
+            <!--           <a href="inspection.html">Inspection</a> -->
+            <!--         </li> -->
+            <!--         <li> -->
+            <!--           <a href="modification.html">Modification</a> -->
+            <!--         </li> -->
+            <!--         <li> -->
+            <!--           <a href="deposit_values.html">Deposits</a> -->
+            <!--         </li> -->
+            <!--         <li> -->
+            <!--           <a href="graph_series.html">Series</a> -->
+            <!--         </li> -->
+            <!--     </ul> -->
+            <!-- </nav> -->
         </div>
     </header>
 
     <!-- Docs page layout -->
     <div class="bs-docs-header" id="content">
         <div class="container">
-        <h1>DiagrammeR Docs</h1>
-        <p>Get an overview of DiagrammeR, learn the syntax, check out some examples.</p>
+        <h1>Cool layout</h1>
+        <p>Get an overview of a page and drill into it.</p>
         </div>
     </div>
 
     <div class="container bs-docs-container">
             <div class="col-md-3" role="complementary">
+                <!-- <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm"> -->
+                <!--     <ul class="nav bs-docs-sidenav"> -->
+                <!--         <li> -->
+                <!--             <a href="#graphviz">Graphviz</a> -->
+                <!--             <ul class="nav"> -->
+                <!--                 <li><a href="#diagrammer-implementation">DiagrammeR Implementation</a></li> -->
+                <!--                 <li><a href="#defining-a-graphviz-graph">Defining a Graphviz Graph</a></li> -->
+                <!--                 <li><a href="#statements">Statements</a></li> -->
+                <!--                 <li><a href="#subgraphs-and-clusters">Subgraphs and Clusters</a></li> -->
+                <!--             </ul> -->
+                <!--         </li> -->
+                <!--         <li> -->
+                <!--             <a href="#attributes">Graphviz Attributes</a> -->
+                <!--             <ul class="nav"> -->
+                <!--                 <li><a href="#node-attributes">Node Attributes</a></li> -->
+                <!--                 <li><a href="#edge-attributes">Edge Attributes</a></li> -->
+                <!--                 <li><a href="#colors">Colors</a></li> -->
+                <!--                 <li><a href="#node-shapes">Node Shapes</a></li> -->
+                <!--                 <li><a href="#arrow-shapes">Arrow Shapes</a></li> -->
+                <!--             </ul> -->
+                <!--         </li> -->
+                <!--         <li> -->
+                <!--             <a href="#substitution">Graphviz Substitution</a> -->
+                <!--             <ul class="nav"> -->
+                <!--                 <li><a href="#how-it-works">How It Works</a></li> -->
+                <!--                 <li><a href="#examples">Examples</a></li> -->
+                <!--             </ul> -->
+                <!--         </li> -->
+                <!--         <li> -->
+                <!--             <a href="#graphviz-layouts">Graphviz Layouts</a> -->
+                <!--             <ul class="nav"> -->
+                <!--                 <li><a href="#the-layouts">The Layouts</a></li> -->
+                <!--                 <li><a href="#dot">dot</a></li> -->
+                <!--                 <li><a href="#neato">neato</a></li> -->
+                <!--                 <li><a href="#twopi">twopi</a></li> -->
+                <!--                 <li><a href="#circo">circo</a></li> -->
+                <!--             </ul> -->
+                <!--         </li> -->
+                <!--         <li> -->
+                <!--             <a href="#mermaid">mermaid</a> -->
+                <!--             <ul class="nav"> -->
+                <!--                 <li><a href="#mermaid-basics">mermaid Basics</a></li> -->
+                <!--                 <li><a href="#defining-a-mermaid-graph">Defining a mermaid Graph</a></li> -->
+                <!--                 <li><a href="#node-shape-and-text">Node Shape and Text</a></li> -->
+                <!--                 <li><a href="#mermaid-sequence-diagrams">mermaid Sequence Diagrams</a></li> -->
+                <!--             </ul> -->
+                <!--         </li> -->
+                <!--     </ul> -->
+                <!--     <a class="back-to-top" href="#top">Back to top</a> -->
+                <!-- </nav> -->
                 <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm">
                     <ul class="nav bs-docs-sidenav">
                         <li>
-                            <a href="#graphviz">Graphviz</a>
+                            <a href="#dmp">Data Management Plan</a>
                             <ul class="nav">
-                                <li><a href="#diagrammer-implementation">DiagrammeR Implementation</a></li>
-                                <li><a href="#defining-a-graphviz-graph">Defining a Graphviz Graph</a></li>
-                                <li><a href="#statements">Statements</a></li>
-                                <li><a href="#subgraphs-and-clusters">Subgraphs and Clusters</a></li>
+                                <li><a href="#scope">scope</a></li>
+                                <li><a href="#datainventory">Data Inventory</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="#attributes">Graphviz Attributes</a>
+                            <a href="#folderstructure">Folder Structure</a>
                             <ul class="nav">
-                                <li><a href="#node-attributes">Node Attributes</a></li>
-                                <li><a href="#edge-attributes">Edge Attributes</a></li>
-                                <li><a href="#colors">Colors</a></li>
-                                <li><a href="#node-shapes">Node Shapes</a></li>
-                                <li><a href="#arrow-shapes">Arrow Shapes</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#substitution">Graphviz Substitution</a>
-                            <ul class="nav">
-                                <li><a href="#how-it-works">How It Works</a></li>
-                                <li><a href="#examples">Examples</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#graphviz-layouts">Graphviz Layouts</a>
-                            <ul class="nav">
-                                <li><a href="#the-layouts">The Layouts</a></li>
-                                <li><a href="#dot">dot</a></li>
-                                <li><a href="#neato">neato</a></li>
-                                <li><a href="#twopi">twopi</a></li>
-                                <li><a href="#circo">circo</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#mermaid">mermaid</a>
-                            <ul class="nav">
-                                <li><a href="#mermaid-basics">mermaid Basics</a></li>
-                                <li><a href="#defining-a-mermaid-graph">Defining a mermaid Graph</a></li>
-                                <li><a href="#node-shape-and-text">Node Shape and Text</a></li>
-                                <li><a href="#mermaid-sequence-diagrams">mermaid Sequence Diagrams</a></li>
+                                <li><a href="#project">Project</a></li>
+                                <li><a href="#dataset">Dataset</a></li>
+                                <li><a href="#entity">Entity</a></li>
                             </ul>
                         </li>
                     </ul>
                     <a class="back-to-top" href="#top">Back to top</a>
                 </nav>
+
             </div>
 
     <div class="container bs-docs-container">
         <div class="row">
             <div class="col-md-9" role="main">
                 <div class="bs-docs-section">
-                    <h1 id="graphviz" class="page-header">Graphviz</h1>
-                   <h2 id="attributes">graphviz attributes</h2>
-                    <p>Hello world.</p>
-                       <h3 id="node-attributes">Node Attributes</h3>
-                         <p>This is a thing</p>
-                  
-                  <h2 id="mermaid-sequence-diagrams">mermaid Sequence Diagrams</h2>
-                    <p>The "How to Draw Sequence Diagrams" report by Poranen, Makinen, and Nummenmaa offers a good introduction to sequence diagrams. Let's replicate the ticket-buying example from Figure 1 of this report and add in some conditionals.</p>
+                    <h1 id="data" class="page-header">Data Management</h1>
+                       <h2 id="dmp">Data Management Plan</h2>
+                       <p>Hello world.</p>
+                           <h3 id="scope">Scope</h3>
+                           <p>This is a thing</p>
+                           <h3 id="datainventory">Data Inventory</h3>
+                           <p>This is a thing</p>
+                    
+                       <h2 id="folderstructure">Folder Structure</h2>
+                       <p>The  report by Noble.</p>
+                           <h3 id="project">Project</h3>
+                           <p>This is a thing</p>
+                           <h3 id="dataset">Dataset</h3>
+                           <p>This is a thing</p>
+                           <h3 id="entity">Entity</h3>
+                           <p>This is a thing</p>
+
                     <div class="bs-example">
-                        <img src="img/mermaid-sequence-diagram-example.png" class="img-responsive center-block">
+                        <img src="img/Pipeline.png" class="img-responsive center-block">
                     </div>
                     <div>
-                        <pre><code class="prettyprint">mermaid("
-sequenceDiagram
-  customer->>ticket seller: ask ticket
-  ticket seller->>database: seats
-  alt tickets available
-    database->>ticket seller: ok
-    ticket seller->>customer: confirm
-    customer->>ticket seller: ok
-    ticket seller->>database: book a seat
-    ticket seller->>printer: print ticket
-  else sold out
-    database->>ticket seller: none left
-    ticket seller->>customer: sorry
-  end
-")</code></pre></div>
+                        <pre><code class="prettyprint">dat <- rnorm(1000,1,2)</code></pre></div>
                 </div>
             </div>
         </div>
@@ -192,36 +208,36 @@ sequenceDiagram
         <footer class="bs-docs-footer" role="contentinfo">
             <div class="container">
                 <div class="bs-docs-social">
-                    <ul class="bs-docs-social-buttons">
-                        <li>
-                            <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=rich-iannone&amp;repo=DiagrammeR&amp;type=watch&amp;count=true" width="90" height="20" title="Star on GitHub"></iframe>
-                        </li>
-                        <li>
-                            <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=rich-iannone&amp;repo=DiagrammeR&amp;type=fork&amp;count=true" width="90" height="20" title="Fork on GitHub"></iframe>
-                        </li>
-                    </ul>
+                    <!-- <ul class="bs-docs-social-buttons"> -->
+                    <!--     <li> -->
+                    <!--         <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=rich-iannone&amp;repo=DiagrammeR&amp;type=watch&amp;count=true" width="90" height="20" title="Star on GitHub"></iframe> -->
+                    <!--     </li> -->
+                    <!--     <li> -->
+                    <!--         <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=rich-iannone&amp;repo=DiagrammeR&amp;type=fork&amp;count=true" width="90" height="20" title="Fork on GitHub"></iframe> -->
+                    <!--     </li> -->
+                    <!-- </ul> -->
                     <ul class="bs-docs-social-buttons">
                         <li class="follow-btn">
-                            <a href="https://twitter.com/riannone" class="twitter-follow-button" data-link-color="#0069D6" data-show-count="true">Follow @riannone</a>
+                            <a href="https://twitter.com/ivanhanigan" class="twitter-follow-button" data-link-color="#0069D6" data-show-count="true">Follow @ivanhanigan</a>
                         </li>
                     </ul>
                 </div>
             </div>
 
-            <div class="container">
-                <p>Designed and built by Richard Iannone <a href="https://twitter.com/riannone" target="_blank">@riannone</a>.</p>
-                <p>Valuable contributions by Kent Russell <a href="https://twitter.com/timelyportfolio" target="_blank">@timelyportfolio</a>, JJ Allaire <a href="https://twitter.com/rstudio" target="_blank">@rstudio</a>, and Michaël Benesty <a href="https://twitter.com/pommedeterre33" target="_blank">@pommedeterre33</a>.</p>
-                <p>Code licensed under MIT.</p>
-                <ul class="bs-docs-footer-links text-muted">
-                    <li>Currently v0.8.2</li>
-                    <li>&middot;</li>
-                    <li><a href="https://github.com/rich-iannone/DiagrammeR">GitHub</a></li>
-                    <li>&middot;</li>
-                    <li><a href="https://github.com/rich-iannone/DiagrammeR/issues">Issues</a></li>
-                    <li>&middot;</li>
-                    <li><a href="https://github.com/rich-iannone/DiagrammeR/releases">Releases</a></li>
-                </ul>
-            </div>
+            <!-- <div class="container"> -->
+            <!--     <p>Designed and built by Richard Iannone <a href="https://twitter.com/riannone" target="_blank">@riannone</a>.</p> -->
+            <!--     <p>Valuable contributions by Kent Russell <a href="https://twitter.com/timelyportfolio" target="_blank">@timelyportfolio</a>, JJ Allaire <a href="https://twitter.com/rstudio" target="_blank">@rstudio</a>, and Michaël Benesty <a href="https://twitter.com/pommedeterre33" target="_blank">@pommedeterre33</a>.</p> -->
+            <!--     <p>Code licensed under MIT.</p> -->
+            <!--     <ul class="bs-docs-footer-links text-muted"> -->
+            <!--         <li>Currently v0.8.2</li> -->
+            <!--         <li>&middot;</li> -->
+            <!--         <li><a href="https://github.com/rich-iannone/DiagrammeR">GitHub</a></li> -->
+            <!--         <li>&middot;</li> -->
+            <!--         <li><a href="https://github.com/rich-iannone/DiagrammeR/issues">Issues</a></li> -->
+            <!--         <li>&middot;</li> -->
+            <!--         <li><a href="https://github.com/rich-iannone/DiagrammeR/releases">Releases</a></li> -->
+            <!--     </ul> -->
+            <!-- </div> -->
         </footer>
 
 
